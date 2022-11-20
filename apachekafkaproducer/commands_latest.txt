@@ -1,0 +1,6 @@
+
+export KAFKA_HOME="/Users/bhagvan.kommadi/desktop/kafka_2.11-0.9.0.0/"
+
+javac -cp "$KAFKA_HOME/libs/*" SimpleProducerExample.java
+
+java -cp "$KAFKA_HOME/libs/*:." SimpleProducerExample ExampleTopic
